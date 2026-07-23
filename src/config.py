@@ -1,3 +1,4 @@
+from pathlib import Path
 ROOT_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT_DIR / "data"
 DOCS_DIR = DATA_DIR / "docs"
