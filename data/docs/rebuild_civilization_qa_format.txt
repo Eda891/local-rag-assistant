@@ -1,0 +1,188 @@
+# Rebuilding Civilization — Reference Answers
+
+## Agriculture and Food Production
+
+**Summary**: Prioritize calorie-dense staple crops and legumes, and save seed stock immediately — food surplus is what frees people to specialize.
+
+**Safety Warnings**
+- Misidentifying wild plants/fungi is a leading cause of poisoning — forage carefully.
+- Without saved seed stock, next season's planting becomes impossible.
+- Relying on a single crop or livestock species creates vulnerability to disease or pest wipeout.
+
+**Step-by-step Guidance**
+1. Forage and preserve (dry, salt, smoke, ferment) any surplus food while crops establish.
+2. Save seeds from surviving crops and wild edibles before consuming everything.
+3. Plant calorie-dense staples (grains, tubers) alongside nitrogen-fixing legumes.
+4. Rotate crops and compost waste to maintain soil fertility.
+5. Raise a diverse mix of livestock (chickens first, then goats/sheep) to spread risk.
+6. Build toward a caloric surplus, which allows specialists (smiths, builders, healers) to emerge.
+
+**Reference**: agriculture_food.txt — "Establishing Crops" / "Livestock"
+
+---
+
+## Water and Sanitation
+
+**Summary**: Clean water and basic sanitation prevent more death than any post-collapse medical treatment — establish both before almost anything else.
+
+**Safety Warnings**
+- Keep latrines and waste sites downhill and downstream from drinking water.
+- Boiling for one minute is the most reliable purification method available.
+- Isolate anyone showing symptoms of waterborne illness to prevent outbreak spread.
+
+**Step-by-step Guidance**
+1. Locate a reliable water source (river, spring, well) rather than relying on rainwater alone.
+2. Site latrines and waste disposal well away from and downhill of water sources.
+3. Boil water for at least one minute, or use sand filtration/solar disinfection as backups.
+4. Make soap (fat + lye) to support handwashing and reduce disease transmission.
+5. Build gravity-fed piping and covered wells as the community stabilizes.
+6. Track illness patterns to catch contaminated sources early.
+
+**Reference**: water_sanitation.txt — "Water Treatment" / "Sanitation"
+
+---
+
+## Energy and Power
+
+**Summary**: Rebuild mechanical power (water, wind, animal) before electrical generation — it's simpler and multiplies labor output faster.
+
+**Safety Warnings**
+- Manage forests sustainably when relying on wood/biomass fuel to avoid depleting supply.
+- Coal extraction requires ventilation and mining safety knowledge before scaling up.
+- Prioritize surviving solar panels for critical uses (medical, communication), not general power.
+
+**Step-by-step Guidance**
+1. Use human/animal labor and wood/charcoal fire as the immediate available power sources.
+2. Build a waterwheel or windmill to power mills, saws, or bellows without electricity.
+3. Use gear systems to transfer mechanical power to multiple tasks.
+4. Once copper wire and magnets are available, build basic generators for electricity.
+5. Consider biogas digesters and alcohol distillation for renewable fuel from waste.
+6. Prioritize energy for cooking, water treatment, and tool-making before less essential uses.
+
+**Reference**: energy_power.txt — "Mechanical Power" / "Priorities for a Recovering Community"
+
+---
+
+## Medicine and Public Health
+
+**Summary**: Prevention (sanitation, nutrition, hygiene) saves far more lives than treatment once modern medicine is unavailable.
+
+**Safety Warnings**
+- Infection, not the injury itself, is the leading cause of death from survivable wounds.
+- Herbal remedies carry real risk of toxicity or ineffectiveness without precise dosing knowledge.
+- Quarantine anyone with contagious illness signs promptly to limit outbreaks.
+
+**Step-by-step Guidance**
+1. Prioritize clean water, sanitation, and varied nutrition as the primary disease prevention tools.
+2. Clean any wound thoroughly with clean/boiled water before covering it.
+3. Use direct pressure and elevation to control bleeding; splint suspected fractures.
+4. Watch for infection signs (redness, swelling, fever) and treat early.
+5. Train multiple people (not just one) in first aid, midwifery, and wound care.
+6. Sterilize instruments by boiling before any procedure, including childbirth.
+
+**Reference**: medicine_health.txt — "Prevention First" / "Wound Care and Basic First Aid"
+
+---
+
+## Metallurgy and Materials
+
+**Summary**: Salvage existing metal before smelting ore, and prioritize labor-multiplying tools (axes, plow blades) first.
+
+**Safety Warnings**
+- Sort salvaged metal by type — different metals require different melting temperatures.
+- Quenching and tempering must be controlled carefully or tools become brittle.
+- Teach metalworking to more than one person to avoid a single point of failure.
+
+**Step-by-step Guidance**
+1. Salvage and sort existing metal by type before attempting to smelt new ore.
+2. Produce charcoal to reach the higher temperatures needed for iron/steel work.
+3. Use blacksmithing (heat, hammer, quench, temper) to shape tools from salvaged metal.
+4. Work bronze or copper first if iron-working capacity isn't yet available — they melt at lower temperatures.
+5. Use casting for more complex shapes like pots or fittings.
+6. Prioritize tools that multiply labor (axes, saws, plow blades) before decorative metalwork.
+
+**Reference**: metallurgy_materials.txt — "Salvage Before Smelting" / "Working with Metal"
+
+---
+
+## Basic Chemistry and Everyday Manufacturing
+
+**Summary**: Soap, textiles, and food preservation are simple, ancient processes with outsized impact on hygiene and survival.
+
+**Safety Warnings**
+- Lye (used in soap-making) is caustic and can burn skin — handle carefully.
+- Achieving consistent natural dye color requires knowledge of mordants and experimentation.
+- Glassmaking requires sustained high heat, more than basic pottery firing.
+
+**Step-by-step Guidance**
+1. Make lye by soaking wood ash in water and filtering it.
+2. Combine lye with rendered fat/oil to produce soap (saponification).
+3. Process plant or animal fibers into thread, then weave into cloth on a loom.
+4. Tan hides with bark tannin to produce durable leather.
+5. Use fermentation, salting, and smoking to preserve food and produce alcohol/vinegar.
+6. Prioritize soap, food preservation, and papermaking early for hygiene and knowledge continuity.
+
+**Reference**: basic_chemistry_manufacturing.txt — "Soap Making" / "Food and Material Preservation"
+
+---
+
+## Construction and Shelter
+
+**Summary**: Choose elevated, water-adjacent sites and start with low-tech materials (timber, cob, adobe) before advancing to fired brick or stone.
+
+**Safety Warnings**
+- Elevate food storage above ground to prevent moisture damage and pest access.
+- Ensure proper chimney/ventilation design to prevent smoke-related respiratory illness.
+- Keep latrines downhill and away from wells, consistent with sanitation practices.
+
+**Step-by-step Guidance**
+1. Choose a site near water but elevated enough to avoid flooding.
+2. Build with accessible low-tech materials first: timber framing, cob, or adobe.
+3. Roof with thatch or wood shingles to shed water effectively.
+4. Design ventilation and chimneys to avoid smoke buildup indoors.
+5. Prioritize communal infrastructure: raised grain storage, a meeting space, a workshop.
+6. Advance to fired brick, lime mortar, and stone construction as furnace capability grows.
+
+**Reference**: construction_shelter.txt — "Basic Building Materials" / "Community Infrastructure"
+
+---
+
+## Communication and Knowledge Preservation
+
+**Summary**: Preserving and teaching existing knowledge is far faster than rediscovering it from scratch — prioritize practical knowledge and redundancy.
+
+**Safety Warnings**
+- Skills held by only one person are vulnerable to permanent loss.
+- Protect books and records from moisture, fire, and pests.
+- Keep redundant copies of critical knowledge in multiple locations.
+
+**Step-by-step Guidance**
+1. Prioritize preserving practical knowledge (agriculture, medicine, engineering) first.
+2. Hand-copy important texts and store redundant copies in separate locations.
+3. Establish record-keeping (tallies, ledgers) and standardized units of measurement.
+4. Pair skilled individuals with learners through apprenticeship.
+5. Document failures as well as successes to speed future progress.
+6. Build simple signaling (smoke, mirror, flags) and messenger networks for long-distance coordination.
+
+**Reference**: communication_knowledge.txt — "Preserving Existing Knowledge" / "Teaching and Apprenticeship"
+
+---
+
+## Governance and Social Organization
+
+**Summary**: Clear, accountable rules and dispute resolution matter as much as technology for sustaining a recovering community.
+
+**Safety Warnings**
+- Hidden scarcity or favoritism erodes trust and cooperation quickly.
+- Leadership based purely on force tends to be unstable and resisted.
+- Undefined succession processes can destabilize a community during leadership transitions.
+
+**Step-by-step Guidance**
+1. Establish clear, transparent rules for allocating shared resources early.
+2. Rotate unpleasant but essential tasks (sanitation, night watch) to keep things perceived as fair.
+3. Set up a known process (mediator or council) for resolving disputes.
+4. Support trade and specialization through a basic exchange or credit system.
+5. Choose leadership that is accountable and has a clear succession process.
+6. Teach shared values and cooperation to the next generation to sustain cohesion long-term.
+
+**Reference**: governance_social_organization.txt — "Dispute Resolution" / "Leadership and Legitimacy"

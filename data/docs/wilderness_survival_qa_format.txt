@@ -1,0 +1,125 @@
+# Wilderness Survival — Reference Answers
+
+## Forest Survival
+
+**Summary**: Prioritize shelter and water over fire and food; insulate yourself from the ground first.
+
+**Safety Warnings**
+- Avoid dead trees/branches ("widowmakers") when choosing a shelter site.
+- Treat all natural water before drinking, even fast-moving streams.
+- Wet clothing causes heat loss much faster than people expect, even in mild temperatures.
+
+**Step-by-step Guidance**
+1. Choose slightly elevated, dry ground away from dead branches.
+2. Insulate the ground beneath you with leaves or boughs before worrying about a roof.
+3. Build a simple lean-to from a fallen branch and leaf litter for wind/rain cover.
+4. Follow terrain downhill or animal trails to find water; boil for at least one minute before drinking.
+5. Gather tinder, kindling, and fuel wood before lighting a fire.
+6. If lost, stay near your last known point rather than wandering; use three of any signal (fires, whistle blasts) for rescue.
+
+**Reference**: forest_survival.txt — "Shelter" / "Water" / "Navigation and Signaling"
+
+---
+
+## Mountain Survival
+
+**Summary**: Get below the treeline and out of the wind fast — mountain weather and altitude illness can turn dangerous within an hour.
+
+**Safety Warnings**
+- Avoid exposed ridgelines/summits during storms due to lightning risk.
+- Descending is often more dangerous than ascending due to fatigue.
+- Confusion or coughing up fluid at altitude signals a medical emergency requiring immediate descent.
+
+**Step-by-step Guidance**
+1. Move below the treeline or behind a windbreak as soon as weather turns.
+2. Turn back early if clouds are building — mountain weather changes fast.
+3. Watch for headache, nausea, and dizziness as early signs of altitude sickness.
+4. If symptoms worsen, descend to lower elevation immediately — this is the only reliable treatment.
+5. Melt snow for water rather than eating it directly.
+6. Use bright gear or an SOS light/mirror pattern (3 short, 3 long, 3 short) to signal rescuers.
+
+**Reference**: mountain_survival.txt — "Weather and Terrain" / "Altitude Illness"
+
+---
+
+## Snow and Extreme Cold Survival
+
+**Summary**: Staying dry is as critical as staying warm; a small, well-insulated shelter beats a large one.
+
+**Safety Warnings**
+- Never eat snow directly — it lowers core body temperature.
+- Ventilate any enclosed snow shelter to avoid carbon dioxide buildup.
+- Do not rub frostbitten skin; rewarm gradually, not with direct high heat.
+
+**Step-by-step Guidance**
+1. Dress in layers: moisture-wicking base, insulating mid-layer, wind/waterproof outer layer.
+2. Build a small snow shelter (cave or quinzee) sized just for your body, with a ventilation hole.
+3. Insulate the ground beneath you before worrying about warmth from above.
+4. Melt snow for drinking water rather than eating it directly.
+5. Watch for hypothermia (shivering, confusion) and frostbite (numb, waxy skin) in yourself and others.
+6. Signal with stomped symbols (X or SOS) in open snowfields, visible from the air.
+
+**Reference**: snow_survival.txt — "Shelter" / "Recognizing Cold Injuries"
+
+---
+
+## Rainy and Wet-Climate Survival
+
+**Summary**: Wet skin plus wind causes hypothermia fast even in mild temperatures — prioritize drying out and steep-angled shelter roofs.
+
+**Safety Warnings**
+- Wet cotton loses nearly all insulating value; synthetic/wool retains more.
+- Standing water can still carry contamination even in a rain-soaked environment.
+- Avoid camping in dry creek beds or gullies due to flash flood risk.
+
+**Step-by-step Guidance**
+1. Build a steep-angled shelter roof (leaves, bark, tarp) so water sheds rather than pools.
+2. Raise your sleeping area off wet ground for insulation.
+3. Wring out and dry clothing whenever possible, even partially.
+4. Collect rainwater directly before it touches the ground; treat before drinking regardless.
+5. Dry your feet and change socks regularly to prevent skin breakdown.
+6. Mark your route in fog/heavy rain to avoid getting turned around.
+
+**Reference**: rain_wet_survival.txt — "Shelter" / "Staying Warm When Wet"
+
+---
+
+## Desert Survival
+
+**Summary**: Ration sweat, not water — reduce activity and seek shade rather than restricting how much you drink.
+
+**Safety Warnings**
+- Heatstroke (hot dry skin, confusion) is a medical emergency requiring immediate cooling.
+- Deserts can drop near freezing at night despite scorching days.
+- Avoid dry washes/low areas — flash floods can occur even without visible rain nearby.
+
+**Step-by-step Guidance**
+1. Seek shade and limit activity during peak heat hours; move in early morning or evening instead.
+2. Drink according to need — don't ration water below what your body requires.
+3. Look for water at cliff bases, damp dry riverbeds, or where vegetation/animal tracks concentrate.
+4. Cover skin with light, loose clothing to reduce water loss from sweat evaporation.
+5. Watch for heat exhaustion (heavy sweating, weakness) and treat with shade and rehydration before it progresses.
+6. Keep warm layers accessible for cold desert nights.
+
+**Reference**: desert_survival.txt — "Water" / "Heat Illness"
+
+---
+
+## General Survival Skills
+
+**Summary**: The "Rule of Threes" (air, shelter, water, food) helps prioritize actions across any environment.
+
+**Safety Warnings**
+- Don't self-ration water below your body's needs — dehydration impairs judgment.
+- Always build fires in a controllable way, away from dry vegetation.
+- Panic increases the chance of poor decisions; pause and assess before acting.
+
+**Step-by-step Guidance**
+1. Prioritize shelter and exposure protection first, then water, then food.
+2. Stay put if lost and your route is known to others; leave markers if you must move.
+3. Insulate yourself from the ground before worrying about the shelter roof.
+4. Prepare all fire materials (tinder, kindling, fuel) before attempting to light it.
+5. Use the number three for distress signals — fires, whistle blasts, flashes.
+6. Treat injuries promptly and conserve energy and water for what's ahead.
+
+**Reference**: general_survival_skills.txt — "The Rule of Threes" / "Signaling for Rescue"

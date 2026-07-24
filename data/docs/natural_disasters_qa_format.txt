@@ -1,0 +1,167 @@
+# Natural Disasters — Reference Answers
+
+## Earthquake
+
+**Summary**: Drop, cover, and hold on during shaking; most injuries come from falling objects and panicked movement, not the ground itself.
+
+**Safety Warnings**
+- Do not run outside during shaking.
+- Watch for gas leaks and aftershocks afterward.
+- Near a coast, move to high ground immediately if shaking was strong or prolonged — don't wait for an official tsunami warning.
+
+**Step-by-step Guidance**
+1. Drop to your hands and knees immediately.
+2. Cover your head and neck with your arms; crawl under sturdy furniture if possible.
+3. Hold on until shaking stops completely.
+4. If driving, pull over away from bridges/overpasses and stay in the vehicle.
+5. After shaking stops, check for injuries and gas leaks before re-entering any structure.
+6. Expect aftershocks and stay alert for hours to days afterward.
+
+**Reference**: earthquake.txt — "During an Earthquake" / "After an Earthquake"
+
+---
+
+## Flood
+
+**Summary**: Get to higher ground early and never enter moving floodwater — it's more dangerous than it looks.
+
+**Safety Warnings**
+- Six inches of fast-moving water can knock down an adult; one to two feet can sweep away a vehicle.
+- Floodwater may be contaminated or electrically charged.
+- Mold can begin growing within 24–48 hours after water exposure.
+
+**Step-by-step Guidance**
+1. Move to higher ground as soon as heavy rain or flood warnings are issued.
+2. Never walk, swim, or drive through floodwater ("Turn Around, Don't Drown").
+3. If your vehicle is caught in rising water, abandon it for higher ground.
+4. If trapped indoors, move to the highest level (avoid sealed attics).
+5. After the flood, wait for official "safe to return" confirmation.
+6. Discard food that contacted floodwater and watch for mold during cleanup.
+
+**Reference**: flood.txt — "During a Flood" / "After a Flood"
+
+---
+
+## Hurricane
+
+**Summary**: Evacuate early if ordered, then shelter in an interior room away from windows if riding out the storm.
+
+**Safety Warnings**
+- The calm "eye" is not the end of the storm — winds return violently from the opposite direction.
+- Never run a generator indoors or near windows/doors (carbon monoxide risk).
+- Treat all downed power lines as live.
+
+**Step-by-step Guidance**
+1. Evacuate promptly if ordered — don't wait for conditions to worsen.
+2. If sheltering in place, move to an interior room on the lowest safe floor, away from glass.
+3. Stay inside during the eye of the storm; wind returns from the opposite direction.
+4. Keep a battery-powered radio on for updates once power fails.
+5. After the storm, avoid floodwater and downed lines, and run generators outdoors only.
+6. Boil or use bottled water until officials confirm safety.
+
+**Reference**: hurricane.txt — "During a Hurricane" / "After a Hurricane"
+
+---
+
+## Wildfire
+
+**Summary**: Evacuate immediately when told to — fire can outrun both people and vehicles — and prepare your home before leaving if time allows.
+
+**Safety Warnings**
+- Do not attempt to defend a property once evacuation is mandatory.
+- Smoke inhalation, not flame contact, causes most wildfire deaths.
+- Do not return home until authorities confirm it's safe — hot spots can reignite.
+
+**Step-by-step Guidance**
+1. Evacuate immediately upon official notice; don't wait to assess the fire yourself.
+2. Close all windows/doors before leaving; leave interior doors unlocked for firefighters.
+3. If trapped in a vehicle, stay inside, close vents, and duck below window level.
+4. If caught outdoors, seek already-burned ground or bare earth and lie face down.
+5. After the fire, wear an N95 mask for ash/smoke and watch for hot spots and unstable trees.
+6. Avoid tap water until officials confirm safety.
+
+**Reference**: wildfire.txt — "During a Wildfire" / "After a Wildfire"
+
+---
+
+## Tornado
+
+**Summary**: Take shelter in the lowest, most interior room immediately upon a tornado warning — don't wait to see the funnel.
+
+**Safety Warnings**
+- Do not shelter under an overpass; wind speed can increase there.
+- A "watch" means conditions are favorable; a "warning" means act now.
+- Avoid unnecessary movement if trapped in debris — tap or whistle rather than shout to conserve energy and be heard.
+
+**Step-by-step Guidance**
+1. Go to your safe room (interior, windowless, lowest floor) the moment a warning is issued.
+2. Get low, cover your head and neck, and use a mattress or heavy furniture for cover.
+3. If driving, seek a sturdy building, or as a last resort get low in a ditch away from the vehicle.
+4. If caught outdoors, lie flat in the lowest available spot.
+5. After the tornado, watch for downed lines, gas leaks, and unstable structures before moving through the area.
+6. If trapped, signal with a tapping sound or whistle rather than shouting.
+
+**Reference**: tornado.txt — "During a Tornado" / "After a Tornado"
+
+---
+
+## Winter Storm / Extreme Cold
+
+**Summary**: Stay indoors, dress in layers, and never run fuel-burning equipment indoors — carbon monoxide is a leading cause of post-storm deaths.
+
+**Safety Warnings**
+- Never use a generator, camp stove, or grill indoors or in a garage.
+- Watch for hypothermia (confusion, slurred speech) and frostbite (numb, waxy skin).
+- Avoid overexertion (e.g., snow shoveling) if you have a heart condition.
+
+**Step-by-step Guidance**
+1. Stay indoors; if you must go out, wear layered clothing covering exposed skin.
+2. Watch yourself and others for signs of hypothermia or frostbite.
+3. Never run generators or fuel-burning equipment indoors.
+4. If stranded in a vehicle, stay inside, run the engine periodically for heat, and signal with a bright cloth.
+5. After the storm, check pipes for freezing before restoring water flow, and watch for ice on walkways.
+6. Discard food from an extended power outage per food-safety guidance.
+
+**Reference**: winter_storm.txt — "During a Winter Storm" / "After a Winter Storm"
+
+---
+
+## Tsunami
+
+**Summary**: Strong coastal shaking or a sudden ocean recession means move inland or to high ground immediately — don't wait for an official warning.
+
+**Safety Warnings**
+- If you can see the wave, you are likely too close to escape it.
+- Multiple waves can arrive over hours; the first is often not the largest.
+- Stay away from rivers/streams leading to the ocean — tsunamis can travel upstream.
+
+**Step-by-step Guidance**
+1. After strong coastal shaking, move to high ground or inland immediately once shaking stops.
+2. If the ocean recedes rapidly or you hear a loud roar, evacuate without waiting for confirmation.
+3. Move on foot if roads are likely to be jammed or damaged.
+4. If high ground is unreachable, go to an upper floor of a sturdy building.
+5. After the first wave, stay away from the coast until officials confirm all danger has passed.
+6. Check for gas leaks and structural damage before re-entering buildings.
+
+**Reference**: tsunami.txt — "During a Tsunami" / "After a Tsunami"
+
+---
+
+## General Preparedness
+
+**Summary**: A stocked emergency kit and a practiced family communication plan apply across almost any disaster type.
+
+**Safety Warnings**
+- Card readers and ATMs may not work without power — keep cash on hand.
+- Local phone lines often jam after a disaster; use text messages instead of calls.
+- Update kits annually and after major life changes (new baby, medication, pet).
+
+**Step-by-step Guidance**
+1. Build a kit with water (1 gal/person/day, 3+ days), non-perishable food, first aid, flashlight, radio, and cash.
+2. Store copies of key documents in a waterproof container.
+3. Choose an out-of-town contact and two meeting places (near-home and outside the neighborhood).
+4. Practice the plan with household drills at least yearly.
+5. During evacuation, take your kit, medications, and documents, and notify your out-of-town contact.
+6. After any disaster, check for injuries first, then document damage before cleanup.
+
+**Reference**: general_preparedness.txt — "Building a Basic Emergency Kit" / "Making a Family Communication Plan"
