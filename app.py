@@ -1,11 +1,9 @@
-# app.py
-"""Field Terminal — offline knowledge assistant, forest-and-parchment theme."""
 import streamlit as st
 from src.generator import answer_query
+from src.retriever import get_top_chunks
 
 st.set_page_config(page_title="Field Terminal", page_icon="🌲", layout="centered")
 
-# --- Forest & parchment styling -------------------------------------------
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -61,18 +59,19 @@ st.markdown("""
     }
 
     /* Topic chips */
-    .topics-label {
+    .topics-label, .examples-label {
         font-size: 0.72rem;
         letter-spacing: 2px;
         text-transform: uppercase;
         color: #5c5744;
         margin-bottom: 10px;
+        margin-top: 4px;
     }
     .topic-row {
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
-        margin-bottom: 26px;
+        margin-bottom: 24px;
     }
     .topic-chip {
         font-size: 0.78rem;
@@ -119,22 +118,40 @@ st.markdown("""
         text-transform: uppercase;
     }
 
-    .stButton > button {
-        background-color: #5f7a52;
-        color: #f4f6ef;
-        border: 1px solid #4a5c42;
-        border-radius: 5px;
+    /* Example question buttons: smaller, secondary style */
+    div[data-testid="column"] .stButton > button {
+        background-color: #ffffff;
+        color: #5c5744;
+        border: 1px solid #c3b89a;
+        border-radius: 20px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.76rem;
+        font-weight: 400;
+        padding: 6px 14px;
+        width: 100%;
+        transition: all 0.15s ease;
+    }
+    div[data-testid="column"] .stButton > button:hover {
+        background-color: #f0ead9;
+        border: 1px solid #8a6a35;
+        color: #2e2a20;
+    }
+
+    /* Main TRANSMIT button stays bold/primary */
+    .transmit-btn > button {
+        background-color: #5f7a52 !important;
+        color: #f4f6ef !important;
+        border: 1px solid #4a5c42 !important;
+        border-radius: 5px !important;
         font-family: 'JetBrains Mono', monospace;
         font-weight: 500;
         letter-spacing: 1px;
-        padding: 10px 24px;
-        transition: all 0.2s ease;
+        padding: 10px 24px !important;
         width: 100%;
     }
-    .stButton > button:hover {
-        background-color: #4a5c42;
-        color: #f4f6ef;
-        border: 1px solid #2e3a28;
+    .transmit-btn > button:hover {
+        background-color: #4a5c42 !important;
+        border: 1px solid #2e3a28 !important;
     }
 
     .response-label {
@@ -155,10 +172,20 @@ st.markdown("""
         font-size: 0.95rem;
         box-shadow: 0 1px 4px rgba(0,0,0,0.05);
     }
+
+    .source-tag {
+        display: inline-block;
+        font-size: 0.72rem;
+        color: #6b4f28;
+        background: rgba(196,154,91,0.14);
+        border: 1px solid #c3a97a;
+        border-radius: 4px;
+        padding: 3px 9px;
+        margin: 8px 6px 0 0;
+    }
 </style>
 """, unsafe_allow_html=True)
 
-# --- Header ------------------------------------------------------------
 st.markdown("""
 <div class="fh-header">
     <div class="fh-eyebrow">Offline knowledge system</div>
@@ -167,7 +194,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# --- Topics you can ask about --------------------------------------------
 st.markdown('<div class="topics-label">You can ask about</div>', unsafe_allow_html=True)
 st.markdown("""
 <div class="topic-row">
@@ -177,11 +203,40 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# --- Query ---------------------------------------------------------------
-question = st.text_input("QUERY", placeholder="ask your documents...")
+EXAMPLE_QUESTIONS = [
+    "What should I do during an earthquake?",
+    "How do I purify water in the wilderness?",
+    "How do I make soap from scratch?",
+    "What are signs of hypothermia?",
+    "How do I signal for rescue if I'm lost?",
+]
 
-if st.button("TRANSMIT") and question:
+if "query_text" not in st.session_state:
+    st.session_state.query_text = ""
+
+st.markdown('<div class="examples-label">Try asking</div>', unsafe_allow_html=True)
+cols = st.columns(len(EXAMPLE_QUESTIONS))
+for col, q in zip(cols, EXAMPLE_QUESTIONS):
+    with col:
+        short_label = q if len(q) <= 22 else q[:20] + "…"
+        if st.button(short_label, key=f"ex_{q}", help=q):
+            st.session_state.query_text = q
+
+question = st.text_input("QUERY", value=st.session_state.query_text, placeholder="ask your documents...")
+
+st.markdown('<div class="transmit-btn">', unsafe_allow_html=True)
+transmit = st.button("TRANSMIT")
+st.markdown('</div>', unsafe_allow_html=True)
+
+if transmit and question:
     with st.spinner("retrieving + generating..."):
+        chunks = get_top_chunks(question)
         answer = answer_query(question)
+
     st.markdown('<div class="response-label">Response</div>', unsafe_allow_html=True)
     st.markdown(f'<div class="response-box">{answer}</div>', unsafe_allow_html=True)
+
+    if chunks:
+        sources = sorted(set(c["source"] for c in chunks))
+        tags_html = "".join(f'<span class="source-tag">📄 {s}</span>' for s in sources)
+        st.markdown(f'<div>{tags_html}</div>', unsafe_allow_html=True)

@@ -1,4 +1,3 @@
-# src/database.py
 """Data layer: the ONLY place that talks to SQLite."""
 import json
 import sqlite3

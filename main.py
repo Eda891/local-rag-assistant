@@ -7,7 +7,6 @@ def main():
                               break
                     if not question:
                               continue                      
-# ignore empty input
                     print("\nAssistant:", answer_query(question), "\n")
 if __name__ == "__main__":
           main()

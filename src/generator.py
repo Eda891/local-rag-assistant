@@ -25,7 +25,7 @@ def _get_client():
         model.load()
 
         print("Getting chat client...")
-        _client = model.get_chat_client()   # loaded once, reused every call
+        _client = model.get_chat_client()   
         print("Client ready.")
     return _client
 
@@ -36,30 +36,27 @@ SYSTEM_PROMPT = (
     "Cite the source document name in your answer."
 )
 
-
 def answer_query(question: str) -> str:
     print("Retrieving top chunks...")
     chunks = get_top_chunks(question)
+    if not chunks:
+        return "I don't have that information."
     print(f"Got {len(chunks)} chunks.")
 
     client = _get_client()
 
-    # 1. Build the context block from the retrieved chunks.
     context_parts = []
     for chunk in chunks:
         context_parts.append(f"[source: {chunk['source']}]\n{chunk['content']}")
     context = "\n\n".join(context_parts)
 
-    # 2. Build the user message.
     user_message = f"{context}\n\nQuestion: {question}"
 
-    # 3. Build the messages list.
     messages = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {"role": "user", "content": user_message},
     ]
 
-    # 4. Stream the reply and accumulate it into a string.
     print("Sending request to model, waiting for first token...")
     answer = ""
     first_token = True
@@ -76,4 +73,4 @@ def answer_query(question: str) -> str:
     return answer
 
 if __name__ == "__main__":
-    print(answer_query("What should I do during an earthquake?"))
+    print(answer_query("What is a whale?")) 

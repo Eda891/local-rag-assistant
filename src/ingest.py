@@ -1,4 +1,3 @@
-# src/ingest.py
 """Read docs -> chunk -> embed -> store. Run this once to build the knowledge base."""
 from src.config import DOCS_DIR
 from src.database import init_db, insert_chunk
@@ -13,8 +12,7 @@ def ingest():
           for path in doc_files:
                     text = path.read_text(encoding="utf-8")
                     chunks = chunk_text(text)
-                    vectors = embed_batch(chunks)          
-                    # embed all chunks of this doc at once
+                    vectors = embed_batch(chunks)         
                     for chunk, vector in zip(chunks, vectors):
                               insert_chunk(source=path.name, content=chunk, embedding=vector)
                     print(f"  {path.name}: {len(chunks)} chunks stored")

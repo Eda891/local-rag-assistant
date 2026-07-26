@@ -1,12 +1,11 @@
-# src/embeddings.py
 """AI layer: text -> vectors. Loads the model once, reuses it."""
 from sentence_transformers import SentenceTransformer
 from src.config import EMBED_MODEL
-_model = None   # module-level cache
+_model = None   
 def _get_model():
           global _model
           if _model is None:
-                    _model = SentenceTransformer(EMBED_MODEL)   # loaded only on first call
+                    _model = SentenceTransformer(EMBED_MODEL) 
           return _model
 
 
